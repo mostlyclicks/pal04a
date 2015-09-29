@@ -1,0 +1,42 @@
+<%#= render '/refinery/content_page' %>
+<style>
+body {
+  margin:0;
+  padding:0;
+  font-family:helvetica neue;
+}
+section {
+height:100vh;
+
+font-weight:200;
+background-color:#f8f8f8;
+color:rgba(0,0,0,.5);
+position:relative;
+}
+#welcome {
+text-align:center;
+width:500px;
+height:300px;
+position:absolute;
+top:50%;
+margin-top:-150px;
+left:50%;
+margin-left:-250px;
+}
+h1 {font-weight:100;}
+img {box-shadow:1px 1px 10px rgba(0,0,0,.1);}
+small {margin-top:15px;display:block;}
+
+footer p {
+  color:rgba(0,0,0,.1);
+  font-size:11px;
+  text-align:center;
+}
+</style>
+<section>
+<div id="welcome">
+<h1>Welcome to Palladium Marketing</h1>
+<%= image_tag 'palladium-logo.png' %>
+<small>For more information contact <a href="mailto:chadkosin@gmail.com">Chad Kosin</a></small>
+</div>
+</section>
